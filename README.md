@@ -80,7 +80,7 @@ The second question aims to answer which season and month is more affordable in 
 
 Baseline model uses 'is_renovated', 'waterfront','with_basement', 'view', 'condition', 'condition_4', spring, summer,'spring','summer', grade, 'sqft_living','sqft_lot','sqft_above','sqft_living15','sqft_lot15','bathrooms' and 'yr_built' to predict the house prices. Some of them are added as dummy variables to the dataframe. The baseline model explains variance for 61 %.
 
-For refining the model zip codes and directions are added to the second model. With the location feature the model's R-squared value reaches to 87 %. To avoid multicollinearity 'sqft_above' value dropped and the R-squared value decreased by 0.001.
+For refining the model zip codes and directions are added to the second model as dummy variables. With the location feature the model's R-squared value reached to 87 %. To avoid multicollinearity 'sqft_above' value dropped and the R-squared value decreased by 0.001.
 
 With Recursive Feature Elimination 70 features is chosen and the final model accounts for 85 % of the house prices.
 
