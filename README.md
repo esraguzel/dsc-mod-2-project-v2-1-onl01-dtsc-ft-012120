@@ -19,7 +19,7 @@ Secondly, direction column created from the latitude and longitude data to searc
 Four directions NW, NE, SE, SE calculated for each latitude and longitude combination and added to the dataframe. To further analyze location's effect on house prices an open source data 'zipcode_king_county.geojson' is loaded to work with folium. It is aimed to create a heatmap with `Choropleth()` function showing average price for each zip code.  
 
 <img src="https://github.com/esraguzel/dsc-mod-2-project-v2-1-onl01-dtsc-ft-012120/blob/master/images/Screenshot%202020-03-22%20at%2013.39.12.png?raw=true" width="100%">
-
+                 
 
 ### Q1: Findings/Insights/Recommendations
 
