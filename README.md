@@ -47,7 +47,7 @@ Four directions NW, NE, SE, SE calculated for each latitude and longitude combin
 ## Q2: Which Season and Months Are Best to Buy A House?
 The second question aims to answer which season and month is more affordable in terms of buying a house, as well as months and seasons role in predicting house prices. In order to answer our second question the 'month' and 'season' columns which are previously created and added to the dataframe are used. Furthermore, `groupby()` function is used to group data in months and seasons. During grouping the price by months and seasons, the `mean ()` function is used to reach unbiased results.
 
-<img src="hhttps://github.com/esraguzel/dsc-mod-2-project-v2-1-onl01-dtsc-ft-012120/blob/master/images/Screenshot%202020-03-22%20at%2014.17.13.png?raw=true" width="100%">
+<img src="https://github.com/esraguzel/dsc-mod-2-project-v2-1-onl01-dtsc-ft-012120/blob/master/images/Screenshot%202020-03-22%20at%2014.17.13.png?raw=true" width="100%">
 
 
 <img src="https://github.com/esraguzel/dsc-mod-2-project-v2-1-onl01-dtsc-ft-012120/blob/master/images/Screenshot%202020-03-22%20at%2014.18.19.png?raw=true" width="100%">
